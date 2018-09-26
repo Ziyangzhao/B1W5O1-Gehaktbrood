@@ -1,0 +1,15 @@
+div {
+	width: 780px;
+	margin: 0 auto;
+
+}
+
+.Gehaktbrood {
+	width: 400px;
+	display: block;
+	margin-left: 25%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
