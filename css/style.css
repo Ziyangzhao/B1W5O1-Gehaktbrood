@@ -1,15 +1,113 @@
-div {
-	width: 780px;
-	margin: 0 auto;
+/*Navigation Bar */
 
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
 
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #6495ED;
+}
+
+ /* Foto */
 .Gehaktbrood {
-	width: 400px;
-	display: block;
-	margin-left: 25%;
+	margin: 40px;
 }
 
+.gyoza1 {
+	margin: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}	
+
+.gyoza2 {
+	margin:40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.gyoza3 {
+	margin:40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.Bereidingswijze {
+	background-color: #D3D3D3;
+	border-radius: 4px;
+	margin-top: 25px;
+}
+
+/* Tip box */
+
+#tip {
+	background-color: #def6ed;
+	padding: 15px;
+	border-radius: 4px;
+	margin-top: 25px;
+}
+
+/* General */
 body {
 	font-family: 'Roboto', sans-serif;
+}
+
+
+
+div {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 20px;
+}
+
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+	margin: 40px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 36px;
+	margin: 40px;
+}
+ul{
+	margin: 40px;
+}
+
+ul li {
+	margin-top: 10px;
+}
+
+ol {
+	margin: 40px;
+}
+
+ol li {
+	margin-top: 20px;
+}
+
+p {
+	margin: 40px;
 }
